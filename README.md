@@ -71,7 +71,7 @@ async function DownloadFiles(itemId) {
 
 ## Sponsorship
 
-- If you enjoy my work, consider becoming a sponsor on [Patreon](https://patreon.com/northantara) or [GitHub](https://github.com/sponsors/qwell/), and/or consider donating to the [Electronic Frontier Foundation](https://eff.org/donate) or [St. Jude](https://www.stjude.org/donate). Many hours of unpaid labor have been put into researching and disclosing these vulnerabilities; Granicus has not provided or offered any bounties.
+- If you enjoy my work, consider becoming a sponsor on [Patreon](https://patreon.com/northantara) or [GitHub](https://github.com/sponsors/qwell/), and/or consider donating to the [Electronic Frontier Foundation](https://eff.org/donate) or [St. Jude](https://www.stjude.org/donate). Many hours of unpaid labor have been put into researching and disclosing these vulnerabilities.
 
 [^1]: _The term "open" in "open records requests" can be misleading, as not all "open" requests are intended for public access. Many state and local governments have exceptions regarding the types of information that can be requested and the individuals permitted to access it. For instance, individuals directly affected by a record may have a legal right to request access regardless of public release exemptions. However, accessing such requests may pose security risks, as sensitive information could be downloaded by attackers. Furthermore, different states have varying requirements for requesting access, with some jurisdictions requiring proof of identity or residency. For example, Tennessee mandates requestors to upload a copy of their State ID to prove residency, potentially exposing personal information to unauthorized access._
 
