@@ -2,7 +2,7 @@
 
 ## Description
 
-Insufficient permission check vulnerabilities in Granicus's GovQA allowed unauthorized access to view, edit, and change ownership of open[^1] records requests, including restricted-access confidential records. By changing ownership of a request, an attacker could effectively deny a legitimate user's access to that request. Affected deployments include a number of Department of Children and Family Services or equivalents, who provide highly explicit records detailing allegations of domestic violence and sexual abuse of children.
+Insufficient permission check vulnerabilities in Granicus's GovQA allowed unauthorized access to view, edit, and change ownership of open records requests[^1], including restricted-access confidential records. By changing ownership of a request, an attacker could effectively deny a legitimate user's access to that request. Affected deployments include a number of Department of Children and Family Services or equivalents, who provide highly explicit records detailing allegations of domestic violence and sexual abuse of children.
 
 ## Details
 
@@ -54,7 +54,8 @@ async function DownloadFiles(itemId) {
 
 ## Acknowledgements
 
-- [Jaku](https://twitter.com/Jaku) founder of [Crowd Control](https://crowdcontrol.live/), who frequently offers his cybersecurity wisdom and experience.
+- [Jaku](https://twitter.com/Jaku), founder of [Crowd Control](https://crowdcontrol.live/), who frequently offers his cybersecurity wisdom and experience.
+- [Johnny Xmas](https://linktr.ee/johnnyxmas), [Burbsec](https://burbsec.com/) President, who has long provided guidance and acted as the voice of reason.
 - [David DiMolfetta](https://www.nextgov.com/voices/david-dimolfetta/25968/) from [Nextgov/FCW](https://www.nextgov.com/), who immediately understood the severity of these vulnerabilities, took them to his editors, and worked tirelessly on his article[^3].
 - [Zack Whittaker](https://techcrunch.com/author/zack-whittaker/) from [TechCrunch](https://techcrunch.com), who graciously allows me to rant about cybersecurity.
 - [Brendon Keefe](https://www.atlantanewsfirst.com/authors/brendan.keefe/) from [Atlanta News First](https://www.atlantanewsfirst.com/), who retroactively permitted me to use his open records request for testing.
@@ -72,7 +73,7 @@ async function DownloadFiles(itemId) {
 
 - If you enjoy my work, consider becoming a sponsor on [Patreon](https://patreon.com/northantara) or [GitHub](https://github.com/sponsors/qwell/), and/or consider donating to the [Electronic Frontier Foundation](https://eff.org/donate) or [St. Jude](https://www.stjude.org/donate). Many hours of unpaid labor have been put into researching and disclosing these vulnerabilities; Granicus has not provided or offered any bounties.
 
-[^1]: _The term "open" in records requests can be misleading, as not all "open" requests are intended for public access. Many state and local governments have exceptions regarding the types of information that can be requested and the individuals permitted to access it. For instance, individuals directly affected by a record may have a legal right to request access regardless of public release exemptions. However, accessing such requests may pose security risks, as sensitive information could be downloaded by attackers. Furthermore, different states have varying requirements for requesting access, with some jurisdictions requiring proof of identity or residency. For example, Tennessee mandates requestors to upload a copy of their State ID to prove residency, potentially exposing personal information to unauthorized access._
+[^1]: _The term "open" in "open records requests" can be misleading, as not all "open" requests are intended for public access. Many state and local governments have exceptions regarding the types of information that can be requested and the individuals permitted to access it. For instance, individuals directly affected by a record may have a legal right to request access regardless of public release exemptions. However, accessing such requests may pose security risks, as sensitive information could be downloaded by attackers. Furthermore, different states have varying requirements for requesting access, with some jurisdictions requiring proof of identity or residency. For example, Tennessee mandates requestors to upload a copy of their State ID to prove residency, potentially exposing personal information to unauthorized access._
 
 <!-- -->
 
