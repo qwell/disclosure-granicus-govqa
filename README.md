@@ -2,9 +2,11 @@
 
 ## Description
 
-Insufficient permission check vulnerabilities in Granicus's GovQA allowed unauthorized access to view, edit, and change ownership of open records requests[^1], including restricted-access confidential records. By changing ownership of a request, an attacker could effectively deny a legitimate user's access to that request. Affected deployments include a number of Department of Children and Family Services or equivalents, who provide highly explicit records detailing allegations of domestic violence and sexual abuse of children.
+Insufficient permission check vulnerabilities in Granicus's GovQA allowed unauthorized access to view, edit, and change ownership of open records requests[^1], including restricted-access confidential records. By changing ownership of a request, an attacker could effectively deny a legitimate user's access to that request. The vulnerabilities affected various deployments, including numerous Departments of Children and Family Services or their equivalents, which handle highly sensitive records of domestic violence and sexual abuse allegations against children.
 
 ## Details
+
+The vulnerabilities allowed attackers to perform several unauthorized actions, as detailed below.
 
 - To view request details, an attacker could access `RequestOpen.aspx?rid=<requestId>` or `RequestOpenCI.aspx?rid=<requestId>`, allowing them to view the name and other private information about the requester, as well as full details of the request.
 - To edit request details, an attacker could access `RequestOpenCI.aspx?rid=<requestId>` to modify any field originally set by the requester.
