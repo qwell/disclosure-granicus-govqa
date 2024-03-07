@@ -83,7 +83,7 @@ async function DownloadFiles(itemId) {
 
 <!-- -->
 
-[^3]: _[Link and article headline TBD.]()_
+[^3]: _[Flaws in public records management tool could let hackers nab sensitive data linked to requests](https://www.nextgov.com/cybersecurity/2024/03/flaws-public-records-management-tool-could-let-hackers-nab-sensitive-data-linked-requests/394755/)_
 
 <!-- -->
 
