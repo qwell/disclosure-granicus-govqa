@@ -1,3 +1,5 @@
+Canonical URL has changed.  See [here](https://govtech.cc/README-2024-03-07-granicus-govqa.md) for updates.
+
 # Granicus GovQA
 
 ## Description
